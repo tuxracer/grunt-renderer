@@ -2,6 +2,9 @@
 
 Renders Handlebars files with given data.
 
+[grunt]: https://github.com/gruntjs/grunt
+[getting_started]: https://github.com/gruntjs/grunt/wiki/Getting-started
+
 ## Getting Started
 Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: ``npm install grunt-renderer --save-dev``
 
