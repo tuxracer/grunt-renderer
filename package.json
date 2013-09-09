@@ -1,0 +1,42 @@
+{
+  "name": "grunt-renderer",
+  "description": "Render Handlebars files with given data",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tuxracer/grunt-renderer",
+  "author": {
+    "name": "Derek Petersen",
+    "email": "tuxracer@gmail.com",
+    "url": "https://github.com/tuxracer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tuxracer/grunt-renderer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuxracer/grunt-renderer/issues"
+  },
+  "main": "./tasks/index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "renderer": "~0.1.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "handlebars",
+    "render",
+    "replace",
+    "file"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
