@@ -28,8 +28,9 @@ grunt.initConfig
       dest: 'index.html'
 
       # Data to be passed to the template
-      data:
-        favicon: 'http://cdn/favicon.ico'
+      options:
+        data:
+          favicon: 'http://cdn/favicon.ico'
 
   # ... other configs
 ```
