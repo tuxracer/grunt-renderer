@@ -15,5 +15,5 @@ module.exports = (grunt) ->
     done = @async()
     src = if @data.cwd? then path.join @data.cwd, @filesSrc[0] else @filesSrc[0]
 
-    renderer(src, @data.dest, @data.data)
+    renderer(src, @data.dest, @options().data)
     .then(done, grunt.fail.warn)

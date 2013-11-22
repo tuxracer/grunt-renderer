@@ -8,10 +8,11 @@ module.exports = (grunt) ->
         cwd: 'test/fixtures/'
         src: ['index.html']
         dest: 'tmp/index.html'
-        data:
-          user: 'blaketothefuture'
-          song: 'sonic-the-hedgehog-marble-zone'
-          title: 'Marble Zone'
+        options:
+          data:
+            user: 'blaketothefuture'
+            song: 'sonic-the-hedgehog-marble-zone'
+            title: 'Marble Zone'
 
     clean:
       test: ['tmp/']
