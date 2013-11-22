@@ -6,7 +6,6 @@ Copyright (c) 2013 Derek Petersen
 Licensed under the MIT license.
 ###
 
-grunt = require 'grunt'
 renderer = require 'renderer'
 path = require 'path'
 

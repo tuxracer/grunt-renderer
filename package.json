@@ -24,8 +24,10 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "grunt": "~0.4.1",
     "renderer": "~0.1.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
   },
   "keywords": [
     "gruntplugin",
