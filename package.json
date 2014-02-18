@@ -24,7 +24,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "renderer": "~0.1.4"
+    "renderer": "~0.1.5"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
